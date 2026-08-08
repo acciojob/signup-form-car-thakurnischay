@@ -8,6 +8,42 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Signup Form</h1>
+	<form method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="name" required>
+		<br><br>
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="email" required>
+		<br><br>
+		<label for="gender">Gender</label>
+		<input type="radio" id="gender_m,gender_f" required>
+		<br><br>
+		<label for="car brands">Car Brands </label>
+		<input type="select" id="cars" placeholder="--please choose an option--" required>
+		<br><br>
+		<label for="age">Age</label>
+		<input type="number" id="age" placeholder="age" required>
+		<br><br>
+		<label for="dob">DOB</label>
+		<input type="date" id="dob" name="dob" required>
+
+    <br><br>
+
+    <label for="tel">Phone Number</label>
+    <input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
+
+    <br><br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Password" required>
+
+    <br><br>
+		<input type="checkbox" id="tos" placeholder="password" required>
+		<label for="tos">I agree to the TOS</label>
+		<br><br>
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
